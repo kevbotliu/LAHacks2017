@@ -1,6 +1,0 @@
-better bruinwalk
-recipe app
-vr emulator
-idea generator
-
-friendly ide

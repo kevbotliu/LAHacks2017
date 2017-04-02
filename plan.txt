@@ -1,0 +1,12 @@
+[Phase 1]
+Test editor
+Gui
+Parser
+
+[Phase 2]
+Rewrite basic errors
+Error reasoning
+
+
+[Phase 3]
+Line by line object following
