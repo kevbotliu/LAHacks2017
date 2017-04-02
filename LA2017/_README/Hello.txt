@@ -1,0 +1,9 @@
+Hey!
+
+Thank you for downloading SBIDE, the all new, all powerful integrated design environment that strives to make learning C++ accessible for newcomers.
+
+Often times, beginner programmers stumble upon cryptic error messages that can’t possibly be written in English, and such messages intimidate and discourage them from moving on. The developers of SBIDE, however, have a special message for these beginners: Do not fear! SBIDE is here!
+
+SBIDE will parse these confusing error messages on your behalf and translate them into easily understandable messages! SBIDE will also suggest a quick, concise change to your code! Wow, that is great!
+
+But wait, there is more! Most importantly, SBIDE will highlight buggy portions of your code, which you could click to see a more detailed explanation of why the error has occurred. Not only will this relieve the user’s debugging struggles, but it will also be a real-time educational experience unmatched by any other IDE!

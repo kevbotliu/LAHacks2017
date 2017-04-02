@@ -1,0 +1,3 @@
+To start, simply double click on the “build” program. Doing so will bring up a simple text editor, within which you will be able to program in C++ to your heart’s content. Once you are done, the program will automatically compile your code once you exit out of the text editor.
+
+Once the program compiles your code, it will display easy to understand descriptions for errors and warnings in your code. You can find more detail by clicking the highlighted errors.

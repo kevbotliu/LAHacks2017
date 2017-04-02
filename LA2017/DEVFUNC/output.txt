@@ -1,0 +1,11 @@
+testcase2.cpp:4:7: error: 'A' cannot be defined in the result type of a function
+testcase2.cpp:15:5: error: void function 't1' should not return a value [-Wreturn-type]
+testcase2.cpp:23:18: error: use of undeclared identifier 'a'
+testcase2.cpp:24:5: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
+testcase2.cpp:26:5: error: use of undeclared identifier 'cin'; did you mean 'std::cin'?
+testcase2.cpp:27:26: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?
+testcase2.cpp:28:18: error: use of undeclared identifier 'arr'; did you mean 'arr1'?
+testcase2.cpp:21:9: note: 'arr1' declared here
+testcase2.cpp:29:22: error: expected ';' after expression
+testcase2.cpp:22:5: warning: array index 5 is past the end of the array (which contains 5 elements) [-Warray-bounds]
+testcase2.cpp:21:5: note: array 'arr1' declared here

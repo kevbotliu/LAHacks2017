@@ -1,0 +1,48 @@
+testcase2.cpp:4:7: error: 'A' cannot be defined in the result type of a function
+class A{
+      ^
+testcase2.cpp:15:5: error: void function 't1' should not return a value [-Wreturn-type]
+    return 5; //bad return
+    ^      ~
+testcase2.cpp:23:18: error: use of undeclared identifier 'a'
+    std::cout << a; //undeclared id
+                 ^
+testcase2.cpp:24:5: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
+    cout << "hi"; //missing namespace
+    ^~~~
+    std::cout
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iostream:54:33: note: 'std::cout' declared here
+extern _LIBCPP_FUNC_VIS ostream cout;
+                                ^
+testcase2.cpp:26:5: error: use of undeclared identifier 'cin'; did you mean 'std::cin'?
+    cin >> a; //missing namespace
+    ^~~
+    std::cin
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iostream:50:33: note: 'std::cin' declared here
+extern _LIBCPP_FUNC_VIS istream cin;
+                                ^
+testcase2.cpp:27:26: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?
+    std::cout << "hi" << endl; //missing namespace on endl
+                         ^~~~
+                         std::endl
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1032:1: note: 'std::endl' declared here
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+testcase2.cpp:28:18: error: use of undeclared identifier 'arr'; did you mean 'arr1'?
+    std::cout << arr[5]; //undeclared array
+                 ^~~
+                 arr1
+testcase2.cpp:21:9: note: 'arr1' declared here
+    int arr1[5];
+        ^
+testcase2.cpp:29:22: error: expected ';' after expression
+    std::cout << "hi" //missing ';'
+                     ^
+                     ;
+testcase2.cpp:22:5: warning: array index 5 is past the end of the array (which contains 5 elements) [-Warray-bounds]
+    arr1[5] = 10; //out of bounds
+    ^    ~
+testcase2.cpp:21:5: note: array 'arr1' declared here
+    int arr1[5];
+    ^
+1 warning and 8 errors generated.
